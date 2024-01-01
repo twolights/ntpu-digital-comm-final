@@ -34,7 +34,7 @@ def main():
     x_in_magnitude = utils.restore_dB(x)
     LINES = (
         (bep_formula.coherent_BPSK, 'Coherent BPSK', ),
-        (bep_formula.coherent_DPSK, 'Coherent BPSK', ),
+        (bep_formula.coherent_DPSK, 'Coherent DPSK', ),
         (bep_formula.coherent_BFSK, 'Coherent BFSK', ),
         (bep_formula.non_coherent_BFSK, 'Non-Coherent BFSK', ),
     )
